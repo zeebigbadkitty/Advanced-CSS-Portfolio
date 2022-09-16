@@ -1,6 +1,7 @@
 *{
     margin:0;
     padding:0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 header{
     background-image:linear-gradient(180deg,#fff7df,#f9edf1);
@@ -12,7 +13,11 @@ header{
     display:flex;
     justify-content: center;
     }
-    
+
+section {
+    display:inline;
+    text-align:center;
+}
 
 main {
     background-color:#f9edf1;
