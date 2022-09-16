@@ -1,13 +1,41 @@
-.header-1
-{display:flex;
-justify-content: flex-start;
-align: baseline;
+.links {
+    display:flex;
+    justify-content:space-around;
 }
+
+.sidebar {
+    float:left;
+    width: 200px;
+    height: 1000px;
+    justify-items:center;
+}
+
+.header-1{
+display:flex;
+justify-content:center;
+}
+
 .logo {
- max-width:  5%;
+ height:  75px;
  border-radius: 5em;
 }
 
-@media screen and max-width: 200px{
-    .logo {}
-}
+.photo {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 5em;
+    border:1px solid black;
+
+
+
+
+@media screen and (max-width: 992px) {
+    .logo {
+        display:block;
+        background: #772014;
+    }
+  
+  @media screen and (max-width: 768px) {
+    .links {
+        display:block;
+  }
