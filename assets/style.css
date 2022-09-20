@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin:0;
     padding:0;
@@ -78,12 +79,54 @@ p {
         display:flex;
         width: 10%;
         background-color:#f9edf1;
+=======
+.links {
+    display:flex;
+    justify-content:space-around;
+}
+
+.sidebar {
+    float:left;
+    width: 200px;
+    height: 1000px;
+    justify-items:center;
+}
+
+.header-1{
+display:flex;
+justify-content:center;
+}
+
+.logo {
+ height:  75px;
+ border-radius: 5em;
+}
+
+.photo {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 5em;
+    border:1px solid black;
+
+
+
+
+@media screen and (max-width: 992px) {
+    .logo {
+        display:block;
+        background: #772014;
+>>>>>>> 323b838155f727a2a65355e636e6c0790d3f171e
     }
   
   @media screen and (max-width: 768px) {
     .links {
+<<<<<<< HEAD
         display:flex;
         width:5%;
         background-color:#f9edf1;
   }
 }
+=======
+        display:block;
+  }
+>>>>>>> 323b838155f727a2a65355e636e6c0790d3f171e
