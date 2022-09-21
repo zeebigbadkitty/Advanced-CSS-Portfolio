@@ -56,16 +56,10 @@ section {
 }
 
 main {
+    width:821.55;
     background-color:#f9edf1;
     display:flex;
     justify-content: center;
-
-}
-
-.links-2 {
-    display:flex;
-    justify-content:center;
-    flex-direction: row;
 
 }
 p {
@@ -78,19 +72,34 @@ p {
 }
 
 .portfolio li {
+    padding: 5px;
     margin-top:50px;
     margin-bottom:50px;
-    display:inline-block;
+    display:inline-flex;
     align-items:center;
     list-style:none;
-    
+}
 
+.portfolio li img {
+    border-radius: 10em;
+    border:4px solid var(--darkgold);
+    width:100px;
+    height:100px;
+}
+.links-2 {
+    display:flex;
+    justify-content:center;
+    flex-direction: row;
+}
+.links-2 img{
+width:25px;
+height:25px;
 }
 
 .footer {
     display:flex;
     justify-content:center;
-    height:50px;
+    height:100px;
     padding:20px;
     background-image:linear-gradient(180deg,#f9edf1,#fff7df);
 }
@@ -117,22 +126,28 @@ a:active {
     text-align:center;}
 
 #photo1:hover {
-    transform:scale(1.5)
+    border:4px solid var(--purple);
+    transform:scale(1.2)
 }
 #photo2:hover {
-    transform:scale(1.5)
+    border:4px solid var(--purple);
+    transform:scale(1.2)
 }
 #photo3:hover {
-    transform:scale(1.5)
+    border:4px solid var(--purple);
+    transform:scale(1.2)
 }
 #photo4:hover {
-    transform:scale(1.5)
+    border:4px solid var(--purple);
+    transform:scale(1.2)
 }
 #photo5:hover {
-    transform:scale(1.5)
+    border:4px solid var(--purple);
+    transform:scale(1.2)
 }
 #photo6:hover {
-    transform:scale(1.5)
+    border:4px solid var(--purple);
+    transform:scale(1.2)
 }
 
 @media screen (max-width: 962px) {
