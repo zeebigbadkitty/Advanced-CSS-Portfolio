@@ -1,7 +1,7 @@
 :root {
     --purple:#8f76a7;
     --darkgold:#e4c772;
-    --lightgold:#fff7df;
+    --lightgold:#fcf3d8;
     --lightpink:#f9edf1;
 }
 * {
@@ -20,15 +20,14 @@ header {
     background-color:var(--lightgold);
     display:flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    margin-left:962px;
-    margin-right: 539px;
+    flex-wrap:wrap;
+    justify-content: flex-end;
+    margin-left:auto;
+    margin-right: auto;
     height: 30px;
-    width: 400px;
-
-
-
+    width: 821.55px;
 }
+
 .header-1 {
     background-color:#fff7df;
     display:flex;
@@ -43,7 +42,7 @@ header {
     max-width: 200px;
     max-height: 200px;
     border-radius: 5em;
-    border:4px solid #eed897;
+    border:4px solid var(--darkgold);
     box-shadow: 5px 5px 4px 0px rgba(0,0,0,0.5);
 }
 h2 {
@@ -157,3 +156,4 @@ a:active {
 /*/Citations:
 
 For the gradient: https://cssgradient.io/
+&nbsp: https://www.w3schools.com/html/html_entities.asp
