@@ -1,10 +1,10 @@
-
 :root {
     --purple:#8f76a7;
     --darkgold:#e4c772;
     --lightgold:#fcf3d8;
     --lightpink:#f9edf1;
 }
+* {
     margin:0;
     padding:0;
     color:var(--purple);
@@ -165,4 +165,3 @@ a:active {
 For the gradient: https://cssgradient.io/
 &nbsp: https://www.w3schools.com/html/html_entities.asp
 For the box shadow: https://html-css-js.com/css/generator/box-shadow/
-
