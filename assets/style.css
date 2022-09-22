@@ -1,77 +1,109 @@
 *{
     margin:0;
     padding:0;
+    color:var(--purple);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-header{
+
+header {
     background-image:linear-gradient(180deg,#fff7df,#f9edf1);
-    padding:20px;
-    float:inline-end;
+
 }
-.header-1{
+
+.links-1 {
+    background-color:var(--lightgold);
+    display:flex;
+    flex-direction: row;
+    margin-left:auto;
+    margin-right: auto;
+    height: 30px;
+    width: 900px;
+    
+}
+.mainbody {
+    width:900px;
+    display:inline;
+    text-align:center;
+    line-height:1.6;
+
+}
+.header-1 {
     background-color:#fff7df;
     display:flex;
     justify-content: center;
     }
-    
-
-main {
-    background-color:#f9edf1;
-    display:flex;
-    justify-content: center;
-
-}
-
-.links {
-    border-right:#e4c772;
-    margin-left:25px;
-    background-color:#f9edf1;
-    display:flex;
-    justify-content:space-between;
-    flex-direction:column;
-    flex-wrap:wrap;
-    width: 95px;
-    height: 500px;
-
-
-}
 
 .photo {
     display:block;
     margin-left:auto;
     margin-right:auto;
+    margin-bottom:20px;
     max-width: 200px;
     max-height: 200px;
     border-radius: 5em;
-    border:4px solid #e4c772;
+    border:4px solid var(--darkgold);
     box-shadow: 5px 5px 4px 0px rgba(0,0,0,0.5);
 }
-p {
+h2 {
+    margin-top:50px;
+    color: var(--purple);
+    text-decoration:underline;
+}
 
+
+main {
+    background-color:#f9edf1;
     display:flex;
-    justify-content:center;
+    justify-content: center;
 }
 
 .mainbody {
-    background-color:#fcf3d8;
+    background-color:var(--lightgold);
 }
 
 .portfolio li {
+
     margin-top:50px;
     margin-bottom:50px;
-    display:inline-block;
+    display:inline-grid;
     align-items:center;
     list-style:none;
-    
+    width:25%;
 
+}
+.portfolio li img {
+    border-radius: 10em;
+    border:4px solid var(--darkgold);
+    width:150px;
+    height:150px;
+}
+.links-2 {
+    display:flex;
+    justify-content:center;
+    flex-direction: row;
+}
+.links-2 img{
+    width:25px;
+    height:25px;
 }
 
 .footer {
-    height:50px;
+    display:flex;
+    justify-content:center;
+    height:100px;
     padding:20px;
-    background-color:#fcf3d8;
     background-image:linear-gradient(180deg,#f9edf1,#fff7df);
 }
 
+a:link {
+    color:160, 221, 213;
+    font-weight:bold;
+    text-align:center;
+}
+a:visited {
+    color: var(--purple);
+    font-weight:bold;
+    text-align:center; }
 
 @media screen and (max-width: 992px) {
     .links {
