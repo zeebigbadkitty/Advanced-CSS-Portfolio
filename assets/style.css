@@ -1,4 +1,10 @@
-*{
+:root {
+    --purple:#8f76a7;
+    --darkgold:#e4c772;
+    --lightgold:#fcf3d8;
+    --lightpink:#f9edf1;
+}
+* {
     margin:0;
     padding:0;
     color:var(--purple);
@@ -60,16 +66,25 @@ main {
 .mainbody {
     background-color:var(--lightgold);
 }
-
+.main-card {
+    margin-top:50px;
+    margin-bottom:50px;
+    display:flex;
+}
+#photo1 {
+    border-radius: 10em;
+    border: 4px solid var(--darkgold);
+    width: 375px;
+    margin-right: auto;
+    margin-left: auto;
+}
 .portfolio li {
-
     margin-top:50px;
     margin-bottom:50px;
     display:inline-grid;
     align-items:center;
     list-style:none;
     width:25%;
-
 }
 .portfolio li img {
     border-radius: 10em;
@@ -86,7 +101,6 @@ main {
     width:25px;
     height:25px;
 }
-
 .footer {
     display:flex;
     justify-content:center;
@@ -103,19 +117,61 @@ a:link {
 a:visited {
     color: var(--purple);
     font-weight:bold;
-    text-align:center; }
-
-@media screen and (max-width: 992px) {
-    .links {
-        display:flex;
-        width: 10%;
-        background-color:#f9edf1;
-    }
-  
-  @media screen and (max-width: 768px) {
-    .links {
-        display:flex;
-        width:5%;
-        background-color:#f9edf1;
-  }
+    text-align:center;
 }
+a:hover {
+    color:var(--darkgold);
+    font-weight:bold;
+    text-align:center;
+}
+a:active {
+    color: var(--darkgold);
+    font-weight:bold;
+    text-align:center;
+}
+#photo1:hover {
+    border:4px solid var(--purple);
+    transform:scale(1.1)
+}
+#photo2:hover {
+    border:4px solid var(--purple);
+    transform:scale(1.1)
+}
+#photo3:hover {
+    border:4px solid var(--purple);
+    transform:scale(1.1)
+}
+#photo4:hover {
+    border:4px solid var(--purple);
+    transform:scale(1.1)
+}
+#photo5:hover {
+    border:4px solid var(--purple);
+    transform:scale(1.1)
+}
+#photo6:hover {
+    border:4px solid var(--purple);
+    transform:scale(1.1)
+}
+@media screen and (max-width:750px) {
+    .portfolio li img {
+        width:75px;
+        height:75px;
+        }
+    .links-1 {
+        height: 30px;
+        width: 500px;    
+        }
+        .mainbody{
+        width:500px;
+        }
+    #photo1{
+        width:250px;
+        }
+}
+/*/Citations:
+
+For the gradient: https://cssgradient.io/
+&nbsp: https://www.w3schools.com/html/html_entities.asp
+For the box shadow: https://html-css-js.com/css/generator/box-shadow/
+
