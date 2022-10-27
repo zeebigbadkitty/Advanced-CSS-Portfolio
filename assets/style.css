@@ -120,30 +120,11 @@ a:active {
     font-weight:bold;
     text-align:center;
 }
-#photo1:hover {
+#photo1:hover, #photo2:hover, #photo3:hover, #photo4:hover, #photo5:hover, #photo6:hover {
     border:4px solid var(--purple);
     transform:scale(1.1)
 }
-#photo2:hover {
-    border:4px solid var(--purple);
-    transform:scale(1.1)
-}
-#photo3:hover {
-    border:4px solid var(--purple);
-    transform:scale(1.1)
-}
-#photo4:hover {
-    border:4px solid var(--purple);
-    transform:scale(1.1)
-}
-#photo5:hover {
-    border:4px solid var(--purple);
-    transform:scale(1.1)
-}
-#photo6:hover {
-    border:4px solid var(--purple);
-    transform:scale(1.1)
-}
+
 @media screen and (max-width:750px) {
     .portfolio li img {
         width:75px;
