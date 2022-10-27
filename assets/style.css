@@ -132,14 +132,16 @@ a:active {
         }
     .links-1 {
         height: 30px;
-        width: 500px;    
+        width: 3/5px;
+        justify-content: space-between;   
         }
         .mainbody{
-        width:500px;
+        width: 3px / 5px;
         }
     #photo1{
         width:250px;
         }
+        
 }
 /*/Citations:
 For the gradient: https://cssgradient.io/
